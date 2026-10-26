@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="nhasach.xsl"?>
+<nhasach
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='nhasach.xsd'>
+    <cuonsach>
+        <masach>s001</masach>
+        <tensach>Phía sau nghi can X</tensach>
+        <sotrang>400</sotrang>
+        <tacgia matg="m01">
+            <hoten>Higashino Keigo</hoten>
+            <diachi>Hà Nội</diachi>
+        </tacgia>
+    </cuonsach>
+    <cuonsach>
+        <masach>s002</masach>
+        <tensach>Harry Potter</tensach>
+        <sotrang>700</sotrang>
+        <tacgia matg="m02">
+            <hoten>J.K Rolling</hoten>
+            <diachi>Thái Bình</diachi>
+        </tacgia>
+    </cuonsach>
+    <cuonsach>
+        <masach>s003</masach>
+        <tensach>Lập trình C++</tensach>
+        <sotrang>100</sotrang>
+        <tacgia matg="m03">
+            <hoten>Kiều Duy Mạnh</hoten>
+            <diachi>Nam Định</diachi>
+        </tacgia>
+    </cuonsach>
+
+</nhasach>
+

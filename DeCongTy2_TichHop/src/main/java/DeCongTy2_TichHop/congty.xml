@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl href="congty.xsl"?>
+<academicresults
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='congty.xsd'>
+    <academicyear>2009</academicyear>
+    <studentresult>
+        <stdid>01234567</stdid>
+        <fullname>Kieu Duy Manh</fullname>
+        <dateofbirth>2000-04-01</dateofbirth>
+        <class>CNTT01TA</class>
+        <subjectresult>
+            <subject>Software System Intergration</subject>
+            <attempt1>9</attempt1>
+            <attempt2>9</attempt2>
+            <annualscore>10</annualscore>
+        </subjectresult>
+        <subjectresult>
+            <subject>Major Project</subject>
+            <attempt1>9</attempt1>
+            <attempt2>9</attempt2>
+            <annualscore>9</annualscore>
+        </subjectresult>
+        <subjectresult>
+            <subject>Software Testing</subject>
+            <attempt1>9</attempt1>
+            <attempt2>9</attempt2>
+            <annualscore>9</annualscore>
+        </subjectresult>
+        <academicclassification>Good</academicclassification>
+        <conductclassification>Good</conductclassification>
+        <homeroomteacher>Tran Mai Linh</homeroomteacher>
+    </studentresult>
+    <studentresult>
+        <stdid>02234567</stdid>
+        <fullname>Nguyen Van Nam</fullname>
+        <dateofbirth>2001-12-07</dateofbirth>
+        <class>CNTT01TA</class>
+        <subjectresult>
+            <subject>Software System Intergration</subject>
+            <attempt1>9</attempt1>
+            <attempt2>9</attempt2>
+            <annualscore>10</annualscore>
+        </subjectresult>
+        <subjectresult>
+            <subject>Major Project</subject>
+            <attempt1>9</attempt1>
+            <attempt2>9</attempt2>
+            <annualscore>9</annualscore>
+        </subjectresult>
+        <subjectresult>
+            <subject>Software Testing</subject>
+            <attempt1>9</attempt1>
+            <attempt2>9</attempt2>
+            <annualscore>9</annualscore>
+        </subjectresult>
+        <academicclassification>Weak</academicclassification>
+        <conductclassification>Good</conductclassification>
+        <homeroomteacher>Dang Thi Nhung</homeroomteacher>
+    </studentresult>
+    <studentresult>
+        <stdid>03234567</stdid>
+        <fullname>Kieu Thi Nu</fullname>
+        <dateofbirth>2000-08-23</dateofbirth>
+        <class></class>
+        <subjectresult>
+            <subject>Software System Intergration</subject>
+            <attempt1>7</attempt1>
+            <attempt2>8</attempt2>
+            <annualscore>7</annualscore>
+        </subjectresult>
+        <subjectresult>
+            <subject>Major Project</subject>
+            <attempt1>5</attempt1>
+            <attempt2>7</attempt2>
+            <annualscore>8</annualscore>
+        </subjectresult>
+        <subjectresult>
+            <subject>Software Testing</subject>
+            <attempt1>6</attempt1>
+            <attempt2>7</attempt2>
+            <annualscore>7</annualscore>
+        </subjectresult>
+        <academicclassification>Excellent</academicclassification>
+        <conductclassification>Good</conductclassification>
+        <homeroomteacher>Dang Thi Nhung</homeroomteacher>
+    </studentresult>
+
+</academicresults>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="congty.xsl"?>
+<congty
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='congty.xsd'>
+    <phongban maphong="p01">
+        <tenphong>Tổ chức</tenphong>
+        <dienthoai>0123456789</dienthoai>
+        <nhanvien>
+            <manv>nv01</manv>
+            <hoten>Phan Tuyết Nga</hoten>
+            <trinhdo>Đại học</trinhdo>
+            <mucluong>1888</mucluong>
+        </nhanvien>
+        <nhanvien>
+            <manv>nv02</manv>
+            <hoten>Hoàng Văn Long</hoten>
+            <trinhdo>Đại học</trinhdo>
+            <mucluong>273</mucluong>
+        </nhanvien>
+        <nhanvien>
+            <manv>nv03</manv>
+            <hoten>Kiều Duy Mạnh</hoten>
+            <trinhdo>Đại học</trinhdo>
+            <mucluong>3647</mucluong>
+        </nhanvien>
+    </phongban>
+    <phongban maphong="p02">
+        <tenphong>Hành chính</tenphong>
+        <dienthoai>0123456789</dienthoai>
+        <nhanvien>
+            <manv>nv04</manv>
+            <hoten>Phan Văn Anh</hoten>
+            <trinhdo>Đại học</trinhdo>
+            <mucluong>736</mucluong>
+        </nhanvien>
+        <nhanvien>
+            <manv>nv05</manv>
+            <hoten>Đỗ Nam Trung</hoten>
+            <trinhdo>Đại học</trinhdo>
+            <mucluong>9822</mucluong>
+        </nhanvien>
+        <nhanvien>
+            <manv>nv06</manv>
+            <hoten>Nguyễn Văn Ba</hoten>
+            <trinhdo>Đại học</trinhdo>
+            <mucluong>764</mucluong>
+        </nhanvien>
+    </phongban>
+
+</congty>
+

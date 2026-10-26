@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+	
+    <xs:simpleType name="scoreCondition">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="10"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="classification">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Average"/>
+            <xs:enumeration value="Good"/>
+            <xs:enumeration value="Excellent"/>
+            <xs:enumeration value="Weak"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="teacher">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Tran Mai Linh"/>
+            <xs:enumeration value="Dang Thi Nhung"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="academicresults">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="academicyear" type="xs:string"/>
+                <xs:element name="studentresult" minOccurs="3" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="stdid">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="\d{8}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="fullname" type="xs:string"/>
+                            <xs:element name="dateofbirth" type="xs:date"/>
+                            <xs:element name="class" type="xs:string"/>
+                            <xs:element name="subjectresult" minOccurs="3" maxOccurs="5">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="subject"/>
+                                        <xs:element name="attempt1" type="scoreCondition"/>
+                                        <xs:element name="attempt2" type="scoreCondition"/>
+                                        <xs:element name="annualscore" type="scoreCondition"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="academicclassification" type="classification"></xs:element>
+                            <xs:element name="conductclassification" type="classification"></xs:element>
+                            <xs:element name="homeroomteacher" type="teacher"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+		
+    </xs:element>
+</xs:schema>

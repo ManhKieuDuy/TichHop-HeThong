@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="nhasach">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cuonsach" minOccurs="3" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="masach">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="s[0-9]{3}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="tensach" type="xs:string"></xs:element>
+                            <xs:element name="sotrang" type="xs:int"></xs:element>
+                            <xs:element name="tacgia">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="hoten">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:minLength value="3"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="diachi">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Hà Nội"/>
+                                                    <xs:enumeration value="Thái Bình"/>
+                                                    <xs:enumeration value="Nam Định"/>
+                                                    <xs:enumeration value="Hải Phòng"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="matg" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
